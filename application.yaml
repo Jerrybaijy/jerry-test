@@ -9,8 +9,8 @@ spec:
   source:
     repoURL: https://jerrybaijy.github.io/k8s-argocd-helm/
     targetRevision: main
-    chart: front-chart
-    version: 0.1.0
+    chart:
+      name: front-chart
   destination:
     server: https://kubernetes.default.svc
     namespace: k8s-argocd-helm
