@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 
 spec:
-  project: k8s-argocd-helm
+  project: default
   source:
     repoURL: https://jerrybaijy.github.io/k8s-argocd-helm/
     targetRevision: main
