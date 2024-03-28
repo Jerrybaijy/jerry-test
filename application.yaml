@@ -8,7 +8,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/Jerrybaijy/k8s-argocd-helm.git
-    targetRevision: HEAD
+    targetRevision: 0.1.0
     path: /
     chart: front-chart
   destination:
