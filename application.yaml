@@ -7,10 +7,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://jerrybaijy.github.io/k8s-argocd-helm/
+    repoURL: https://github.com/Jerrybaijy/k8s-argocd-helm.git
     targetRevision: main
-    chart:
-      name: front-chart
+    chart: front-chart
   destination:
     server: https://kubernetes.default.svc
     namespace: k8s-argocd-helm
