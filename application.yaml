@@ -9,6 +9,7 @@ spec:
   source:
     repoURL: https://github.com/Jerrybaijy/k8s-argocd-helm.git
     targetRevision: main
+    path: /
     chart: front-chart
   destination:
     server: https://kubernetes.default.svc
